@@ -34,7 +34,10 @@ $ ./program file.txt
 $ ./program file1.txt file2.txt
 
 # Комбинация с другими утилитами
-$ ls | ./program 
+$ ls | ./program
+```
 
 ### Сборка
+```bash
 gcc -o program main.c
+```
